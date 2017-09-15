@@ -38,10 +38,10 @@ using namespace std;
 #define ssll(a,b) scanf("%lld%lld",&a,&b)
 #define Case(no) printf("Case %lld: ",++no)
 #define nl puts("")
-#define P(a) printf("%d\n",a)
-#define PL(a) printf("%lld\n",a)
-#define PN(a) printf("%d ",a)
-#define PLN(a) printf("%lld ",a)
+#define p(a) printf("%d\n",a)
+#define pll(a) printf("%lld\n",a)
+#define P(a) printf("%d ",a)
+#define PLL(a) printf("%lld ",a)
 
 
 #define ff first
