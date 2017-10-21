@@ -1,4 +1,5 @@
 #include <list>
+
 #include <set>
 #include <map>
 #include <ctime>
@@ -26,7 +27,7 @@
 #include <algorithm>
 using namespace std;
 
-#define sc scanf
+#define sf scanf
 #define pf printf
 #define pi 2*acos(0.0)
 #define ull unsigned long long
@@ -34,17 +35,22 @@ using namespace std;
 
 #define sii(t) scanf("%d",&t)
 #define sll(t) scanf("%lld",&t)
-#define ssii(a,b) scanf("%d%d",&a,&b)
+#define sll(t) scanf("%lld",&t)
 #define ssll(a,b) scanf("%lld%lld",&a,&b)
-#define Case(no) printf("Case %lld: ",++no)
+#define ssd(a,b) scanf("%lf%lf",&a,&b)
+#define sssll(a,b,c) scanf("%lld%lld%lld",&a,&b,&c)
+#define ssslf(a,b,c) scanf("%lf%lf%lf",&a,&b,&c)
+#define ssssll(a,b,c,d) scanf("%lld%lld%lld%lld",&a,&b,&c,&d)
+#define Case(no) printf("CASE# %lld:\n",++no)
 #define nl puts("")
-#define p(a) printf("%d\n",a)
 #define pll(a) printf("%lld\n",a)
 #define P(a) printf("%d ",a)
 #define PLL(a) printf("%lld ",a)
 
 
 #define ff first
+#define pb push_back
+#define mp make_pair
 #define se second
 #define pb push_back
 #define ST(v) sort(all(v))
@@ -56,16 +62,16 @@ using namespace std;
 #define minall(v) *min_element(all(v))
 #define cover(a,d) memset(a,d,sizeof(a))
 #define popcount(i) __builtin_popcount(i)                       //count one
-#define input freopen("in.txt","r",stdin)
 #define output freopen("out.txt","w",stdout)
+#define input freopen("in.txt","r",stdin)
 #define un(v) ST(v), (v).earse(unique(all(v)),v.end())
 #define common(a,b) ST(a), ST(b), a.erase(set_intersection(all(a),all(b),a.begin()),a.end())
 #define uncommon(a,b) ST(a), ST(b), a.erase(set_symmetric_difference(all(a),all(b),a.begin()),a.end())
-#define flop(m,n,q)             for(ll i=m;i<n;i+=q)
+#define flop(m,n,q)             for(ll i=m;i<=n;i+=q)
 ////============ CONSTANT ===============////
 #define mx  (100010)
-#define inf 1000000000000000000
+#define inf 10000000000000000
 #define eps 1e-9
 #define mod 10007
-////=====================================////
 typedef long long ll;
+////=====================================////
